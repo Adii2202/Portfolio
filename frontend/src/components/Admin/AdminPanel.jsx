@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./AdminPanel.css";
 import { Button, Typography } from "@mui/material";
 import { AiOutlineProject } from "react-icons/ai";
-import { FaYoutube } from "react-icons/fa";
+import { FaCode } from "react-icons/fa"
 import { MdTimeline } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -250,7 +250,7 @@ const AdminPanel = () => {
             TIMELINE <MdTimeline />
           </Link>
           <Link to="/admin/youtube">
-            CODING <FaYoutube />
+            CODING <FaCode />
           </Link>
           <Link to="/admin/project">
             PROJECTS <AiOutlineProject />

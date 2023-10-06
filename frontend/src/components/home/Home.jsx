@@ -127,7 +127,7 @@ const Home = ({ timelines, youtubes, skills }) => {
         </Typography>
 
         <div className="homeCanvasBox">
-          <Typography variant="h2">DATA SCIENCE</Typography>
+          {/* <Typography variant="h2"></Typography> */}
           <Typography variant="h2">STUDENT</Typography>
           <Typography variant="h2">DEVELOPER</Typography>
         </div>
